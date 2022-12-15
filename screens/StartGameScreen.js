@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginHorizontal: 12,
     padding: 16,
-    backgroundColor: "#4e0329",
+    backgroundColor: "#002F47",
     borderRadius: 8,
     elevation: 8, // Android Shadow
 
@@ -49,9 +49,9 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     fontSize: 32,
-    borderBottomColor: "#ddb52f",
+    borderBottomColor: "#7AB66F",
     borderBottomWidth: 2,
-    color: "#ddb52f",
+    color: "#7AB66F",
     marginVertical: 8,
     fontWeight: "bold",
     textAlign: "center",
