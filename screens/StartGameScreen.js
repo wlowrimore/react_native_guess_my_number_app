@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { TextInput, View, StyleSheet, Alert } from "react-native";
+import Colors from "../constants/colors";
 
 import PrimaryButton from "../components/PrimaryButton";
 
@@ -61,7 +62,7 @@ const styles = StyleSheet.create({
     marginTop: 100,
     marginHorizontal: 12,
     padding: 16,
-    backgroundColor: "#002F47",
+    backgroundColor: Colors.primaryBlue,
     borderRadius: 8,
     elevation: 8, // Android Shadow
 
@@ -77,9 +78,9 @@ const styles = StyleSheet.create({
     height: 50,
     width: 50,
     fontSize: 32,
-    borderBottomColor: "#7AB66F",
+    borderBottomColor: Colors.primaryGreen,
     borderBottomWidth: 2,
-    color: "#7AB66F",
+    color: Colors.primaryGreen,
     marginVertical: 8,
     fontWeight: "bold",
     textAlign: "center",
