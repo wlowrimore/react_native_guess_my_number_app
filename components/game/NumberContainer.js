@@ -14,9 +14,11 @@ export default NumberContainer;
 
 const styles = StyleSheet.create({
   container: {
-    borderWidth: 4,
-    borderColor: Colors.primaryBlue,
-    padding: 24,
+    borderWidth: 2,
+    borderColor: "white",
+    backgroundColor: "gray",
+    opacity: 0.65,
+    padding: 48,
     margin: 24,
     borderRadius: 8,
     alignItems: "center",
