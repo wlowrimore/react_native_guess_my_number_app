@@ -11,6 +11,7 @@ export default InstructionText;
 const styles = StyleSheet.create({
   instructionText: {
     color: Colors.primaryGreen,
+    fontFamily: "open-sans",
     fontSize: 24,
     margin: 10,
   },
