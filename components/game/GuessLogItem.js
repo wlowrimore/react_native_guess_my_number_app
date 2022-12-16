@@ -5,7 +5,9 @@ function GuessLogItem({ roundNumber, guess }) {
   return (
     <View style={styles.listItem}>
       <Text style={styles.itemText}>#{roundNumber}</Text>
-      <Text style={styles.itemText}>Opponent's Guess: {guess}</Text>
+      <Text style={styles.itemText}>
+        Opponent's Guess: <Text style={styles.guessText}>{guess}</Text>
+      </Text>
     </View>
   );
 }
@@ -19,11 +21,11 @@ const styles = StyleSheet.create({
     borderRadius: 40,
     padding: 12,
     marginVertical: 8,
-    backgroundColor: "silver",
+    backgroundColor: Colors.buttonBlue,
     flexDirection: "row",
     justifyContent: "space-between",
     width: "100%",
-    elevation: 8,
+    elevation: 4,
 
     // -------- Dropshadow for IOS -------- //
     shadowColor: "black",
@@ -33,6 +35,12 @@ const styles = StyleSheet.create({
   },
 
   itemText: {
+    fontSize: 16,
     fontFamily: "open-sans",
+  },
+
+  guessText: {
+    color: "red",
+    fontSize: 18,
   },
 });
